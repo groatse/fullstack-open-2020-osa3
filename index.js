@@ -30,7 +30,6 @@ let puhlu = [
   ]
 
 
-   
   app.get('/info', (req, res) => {
     const people = Object.keys(puhlu).length
     const date = new Date()
