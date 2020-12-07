@@ -4,7 +4,7 @@ var morgan = require('morgan')
 app.use(express.json()) 
 app.use(morgan('tiny'))
 const cors = require('cors')
-
+app.use(express.static('build'))
 app.use(cors())
 let puhlu = [
     {
